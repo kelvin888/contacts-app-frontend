@@ -1,6 +1,7 @@
 {
-  "name": "my-app",
-  "version": "0.0.0",
+  "name": "contacts-app-frontend",
+  "version": "1.0.0",
+  "description": "A simple contacts app",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,11 +10,28 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelvin888/contacts-app-frontend"
+  },
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript"
+  ],
+  "author": {
+    "name": "Kelvin Orhungul",
+    "email": "kelvin.orhungul@yahoo.com",
+    "url": "https://bezt-contacts-app.netlify.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelvin888/contacts-app-frontend/issues",
+    "email": "kelvin.orhungul@yahoo.com"
+  },
+  "homepage": "https://github.com/kelvin888/contacts-app-frontend#readme",
   "husky": {
-    "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test"
-    }
+    "hooks": {}
   },
   "private": true,
   "dependencies": {
@@ -37,7 +55,14 @@
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
     "codelyzer": "^5.1.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.3",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -46,6 +71,7 @@
     "karma-coverage-istanbul-reporter": "~2.1.0",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
+    "prettier": "^2.0.2",
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
